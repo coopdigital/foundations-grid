@@ -1,10 +1,10 @@
 {
-  "name": "@coopdigital/component-template",
-  "version": "1.0.4",
-  "description": "Co-op Component/CSS Module Template",
-  "main": "src/component.html",
-  "style": "src/component.css",
-  "author": "Matthew Morek (matthew.morek@coopdigital.co.uk)",
+  "name": "@coopdigital/foundations-grid",
+  "version": "1.0.0",
+  "description": "Co-op CSS Foundations: Grid.",
+  "main": "dist/grid.html",
+  "style": "dist/grid.css",
+  "author": "Co-op Digital",
   "license": "MIT",
   "files": [
     "dist",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coopdigital/component-template.git"
+    "url": "git+https://github.com/coopdigital/foundations-grid.git"
   },
   "devDependencies": {
     "@coopdigital/css-foundations": "^1.7.6",
