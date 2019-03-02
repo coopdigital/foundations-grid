@@ -5,6 +5,12 @@
   "main": "dist/grid.html",
   "style": "dist/grid.css",
   "author": "Co-op Digital",
+  "contributors": [
+    {
+      "name": "Michael Chadwick",
+      "email": "michael.chadwick@coopdigital.co.uk"
+    }
+  ],
   "license": "MIT",
   "files": [
     "dist",
