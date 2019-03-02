@@ -7,20 +7,15 @@
 }
 .coop-l-grid {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: space-between;
   margin-top: -2rem;
   margin-left: -1rem;
   margin-right: -1rem;
-  box-sizing: border-box;
-}
-.coop-l-grid * {
-  box-sizing: inherit;
 }
 .coop-l-grid-item {
-  flex-grow: 1;
-  flex-basis: 0;
+  flex: 1 0 auto;
   max-width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -30,6 +25,10 @@
   flex: 1;
 }
 @media (min-width: 480px) {
+  .coop-l-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .coop-l-grid-items--2 .coop-l-grid-item,
   .coop-l-grid-items--3 .coop-l-grid-item,
   .coop-l-grid-items--4 .coop-l-grid-item {
