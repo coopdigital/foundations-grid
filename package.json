@@ -9,6 +9,10 @@
     {
       "name": "Michael Chadwick",
       "email": "michael.chadwick@coopdigital.co.uk"
+    },
+    {
+      "name": "Paul Welsh",
+      "email": "paul.welsh@coopdigital.co.uk"
     }
   ],
   "license": "MIT",
@@ -19,7 +23,7 @@
   "scripts": {
     "lint": "node_modules/.bin/stylelint 'dist/*.css' --fix",
     "build": "node_modules/.bin/postcss src/*.pcss --dir dist/ --ext css",
-    "dist": "npm run build && npm run lint",
+    "dist": "npm run lint && npm run build",
     "init": "rm -rf ./.git && git init"
   },
   "repository": {
